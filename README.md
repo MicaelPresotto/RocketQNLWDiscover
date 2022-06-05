@@ -12,10 +12,6 @@ Projeto desenvolvido com as seguintes tecnologias:
   * Express
   * SQLite
 
-### Bibliotecas
-  * [Google Fonts](https://fonts.google.com)
-  * [Scroll Reveal](https://scrollrevealjs.org)
-  * [SwiperJS](https://swiperjs.com)
   
 
 ## Projeto
