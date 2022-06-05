@@ -1,6 +1,7 @@
-!()
-## Tecnologias 
+
 ![RocketQ](https://user-images.githubusercontent.com/50453035/172071750-257561cd-dca7-4a4f-91d4-ccab8265a554.PNG)
+
+## Tecnologias 
 
 Projeto desenvolvido com as seguintes tecnologias:
   * HTML
