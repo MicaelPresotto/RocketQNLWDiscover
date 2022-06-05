@@ -1,0 +1,15 @@
+const express = require('express')
+const questioncontroller = require('./controllers/questioncontroller')
+const route = express.Router()
+const QuestionController = require('./controllers/questioncontroller')
+const RoomController = require('./controllers/RoomController')
+route.get('/', (req, res) => res.render('index', { page: 'enter-room' }))
+route.get('/createpass', (req, res) =>
+  res.render('index', { page: 'createpass' })
+)
+route.get('/room/:room', RoomController.open)
+route.post('/question/:room/:question/:action', QuestionController.index)
+route.post('/create-room', RoomController.create)
+route.post('/question/create/:room', questioncontroller.create)
+route.post('/enterroom', RoomController.enter)
+module.exports = route
